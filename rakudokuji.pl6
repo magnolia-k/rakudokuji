@@ -16,6 +16,6 @@ my @omikuji = (
 );
 
 srand(time);
-my $result = @omikuji[@omikuji.elems.rand()];
+my $result = @omikuji.pick();
 
 say $result;
